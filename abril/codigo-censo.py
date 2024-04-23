@@ -53,25 +53,25 @@ else:
            else:
               print('invalido.')
     else: 
-    if regime == 'mei' and renda > 6750:
-       print('reprovado')
-    else:
-        if aposentadoria == 's' and idade > 62:
-          print('aprovado com ressalvas.')
+        if regime == 'mei' and renda > 6750:
+            print('reprovado')
         else:
-            if idade < 14 and estudo == 'n':
-              print('aprovado com ressalvas.')
+            if aposentadoria == 's' and idade > 62:
+                print('aprovado com ressalvas.')
             else:
-                if idade < 14 and trabalho == 's':
-                   print('reprovado.')
+                if idade < 14 and estudo == 'n':
+                    print('aprovado com ressalvas.')
                 else:
-                    if idade == 14 and trabalho == 's' and estudo == 's':
-                       print('aprovado com ressalvas.')
+                    if idade < 14 and trabalho == 's':
+                        print('reprovado.')
                     else:
-                        if idade == 15 and trabalho == 's' and estudo == 's':
+                        if idade == 14 and trabalho == 's' and estudo == 's':
                             print('aprovado com ressalvas.')
                         else:
-                            if idade == 16 and trabalho == 's' and estudo == 's':
+                            if idade == 15 and trabalho == 's' and estudo == 's':
                                 print('aprovado com ressalvas.')
                             else:
-                               print('aprovado!')
+                                if idade == 16 and trabalho == 's' and estudo == 's':
+                                    print('aprovado com ressalvas.')
+                                else:
+                                    print('aprovado!')
