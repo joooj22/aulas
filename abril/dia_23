@@ -1,0 +1,13 @@
+TUPLAS, LAÇOS E TAL 
+
+Comando 'dir''
+    Utilizado para listar variáveis disponíveis {dir()}
+    E para listar metodos disponiveis na variavel {dir(variavel)}
+
+Listas
+    Coleções mutáveis e ordenadas de itens heterogêneos
+        - Mutável: adiciona, remove e substitui itens da lista
+        - Ordenada: acessa itens através de um índice (0-based) sem percorrer toooooda lista
+        - Heterogênea: armazena tudo (string, numeros, listas... blablabla)
+
+
