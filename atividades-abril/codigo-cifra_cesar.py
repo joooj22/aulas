@@ -1,3 +1,6 @@
+import random
+
+
 POS_LETRA_Z = 90
 POS_LETRA_A = 65
 ALFABETO = 26
